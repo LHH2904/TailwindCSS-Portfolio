@@ -10,6 +10,11 @@
     <!-- box icons -->
     <link rel="stylesheet"
           href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- swiper slide js -->
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body class="bg-background">
     <!-- Header -->
@@ -71,7 +76,116 @@
         </div>
     </section>
 
+    <!-- service section -->
+    <section class="max-w-7xl mx-auto px-5 my-6 text-white">
+        <div class="text-center">
+            <p class="font-montserrat text-xl mb-3 font-medium">My Services</p>
+            <h3 class="text-primary text-3xl font-bold font-inter mb-16">What I Do</h3>
+        </div>
+
+        <!-- services card -->
+        <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12">
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./public/img/graphic-design.svg" alt="" class="w-[196px] mb-12 mx-auto">
+                <h5 class="text-center my-5 text-xl">Graphic Designer</h5>
+                <p class="text-justify">
+                    strive to create visually impact designs that effectively communicate ,messages & meet their unique needs.
+                </p>
+            </div>
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./public/img/web-design.svg" alt="" class="w-[196px] mb-12 mx-auto">
+                <h5 class="text-center my-5 text-xl">Web Designer</h5>
+                <p class="text-justify">
+                    delivering intuitive, user-centered designs that bring my clients' vision to life by combining technical expertise
+                </p>
+            </div>
+            <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
+                <img src="./public/img/mix-design.svg" alt="" class="w-[196px] mb-12 mx-auto">
+                <h5 class="text-center my-5 text-xl">UI/UX Designer</h5>
+                <p class="text-justify">
+                    passion for creating user-friendly experiences and a drive to stay with the design trends & technologies to designs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section class="max-w-7xl mx-auto px-5 my-32">
+        <div class="text-center text-white">
+            <h3 class="text-3xl font-bold mb-5 font-primary">Recent <span class="text-primary">Projects</span></h3>
+            <p class="mb-6 md:w-3/4 md:px-12 mx-auto font-primary">I bring a passion for creating user-friendly experiences and a drive  design trends and technologies to deliver top-notch designs that meet needs and exceed their expectations
+            </p>
+        </div>
+
+        <!-- project card -->
+        <div class="flex md:flex-row flex-col items-center justify-between gap-8 my-20">
+            <div class="border border-primary shadow-[#5dadec3b] shadow-xl md:w-[741px] md:h-96 mx-auto rounded-2xl p-5 md:p-0">
+                <img src="./public/img/project2.svg" alt="" class="cursor-pointer p-5 w-full hover:scale-125 transition-all duration-300">
+            </div>
+            <div class="border border-primary shadow-[#5dadec3b] shadow-xl md:w-[741px] md:h-96 mx-auto rounded-2xl p-5 md:p-0">
+                <img src="./public/img/project1.svg" alt="" class="cursor-pointer p-5 w-full hover:scale-125 transition-all duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials section -->
+    <section class="my-16 max-w-7xl px-5 mx-auto">
+        <div class="text-center text-white">
+            <p class="font-montserrat font-semibold text-2xl">Testimonials</p>
+            <h3 class="font-inter font-semibold text-3xl text-primary mb-16">What Our Customers Say</h3>
+        </div>
+
+        <!-- review cards -->
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview1.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Mike Torello</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview2.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Rick Wright</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview3.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Devon Miles</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview1.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Mike Torello</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview2.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Rick Wright</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+                <div class="swiper-slide py-8 px-3 text-white">
+                    <img src="./public/img/preview3.svg" alt="">
+                    <p class="text-sm px-2 my-5 text-justify">She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use</p>
+                    <h5 class="text-primary mb-2">Devon Miles</h5>
+                    <p class="text-sm px-2">Executive Engineer</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
     <!-- script tags -->
     <script src ="./public/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./public/js/review.js"></script>
 </body>
 </html>
